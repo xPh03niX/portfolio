@@ -1,5 +1,5 @@
 import React from "react";
-import Vmarine from "../img/Vmarine.jpg";
+import weather from "../img/weather.jpg";
 import aguaDeLuz from "../img/aguaDeLuz.png";
 import todo from "../img/todolist.png";
 import PropTypes from "prop-types";
@@ -10,7 +10,7 @@ export default class Projects extends React.Component {
 		return (
 			<React.Fragment>
 				<div id="my-projects" className="container-fluid bg-light mt-5">
-					<div className=" project-container container bg-light pb-5">
+					<div className="project-container container bg-light pb-5">
 						<h1
 							id="projects"
 							className={"text-center " + this.props.fadeInRight}>
@@ -24,7 +24,7 @@ export default class Projects extends React.Component {
 								}>
 								<div className="overlay">
 									<div className="text">
-										<h2>VMarine</h2>
+										<h2>Weather App</h2>
 									</div>
 									<div>
 										<button
@@ -41,7 +41,7 @@ export default class Projects extends React.Component {
 												marineModal.style.display =
 													"block";
 											}}>
-											Learn More
+											See More
 										</button>
 									</div>
 								</div>
@@ -70,7 +70,7 @@ export default class Projects extends React.Component {
 												aguaModal.style.display =
 													"block";
 											}}>
-											Learn More
+											See More
 										</button>
 									</div>
 								</div>
@@ -99,7 +99,7 @@ export default class Projects extends React.Component {
 												todoModal.style.display =
 													"block";
 											}}>
-											Learn More
+											See More
 										</button>
 									</div>
 								</div>
@@ -112,25 +112,36 @@ export default class Projects extends React.Component {
 				<div id="gallery-card">
 					<div id="vmarine" className="modal-card">
 						<div className="visual">
-							<img src={Vmarine} alt=""/>
+							<img src={weather} alt="Weather App"/>
 						</div>
 						<div className="modal-info">
-							<h2>Vmarine</h2>
+							<h2>Weather App</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-										Prototype marine web-application to
-										provide information about progress of
-										services and prices.
+										React Weather Application.
+										Provides information about
+										the temperature of cities 
+										around the world.
 									</li>
 									<li>
-										Designed with HTML5, CSS3, Bootstrap,
-										Webpack, Wordpress, and ReactJS.
+										Designed with HTML5, CSS3, Bootstrap,											 and ReactJS.
 									</li>
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<h4>Comming Soon!</h4>
+								<a
+								href="https://xph03nix.github.io/weather"
+								target="_blank"
+								rel="noreferrer noopener">
+								<h4>View live demo</h4>
+								</a>
+								<a
+								href="https://github.com/xPh03niX/weather"
+								target="_blank"
+								rel="noreferrer noopener">
+								<h4>GitHub Repo</h4>
+								</a>
 								<p
 									className="close-icon"
 									style={{
@@ -178,8 +189,15 @@ export default class Projects extends React.Component {
 							<div className="modal-bottom">
 								<a
 									href="./AguaDeLuz/index.html"
-									target="_blank">
-									<h3>View live demo</h3>
+									target="_blank"
+									rel="noreferrer noopener">
+									<h4>View live demo</h4>
+								</a>
+								<a
+									href=""
+									target="_blank"
+									rel="noreferrer noopener">
+									<h4>GitHub Repo</h4>
 								</a>
 								<p
 									className="close-icon"
@@ -223,8 +241,17 @@ export default class Projects extends React.Component {
 								</ul>
 							</div>
 							<div className="modal-bottom">
-								<a href="./todoList/index.html" target="_blank">
-									<h3>View live demo</h3>
+								<a 
+									href="./todoList/index.html" 
+									target="_blank"
+									rel="noreferrer noopener">
+									<h4>View live demo</h4>
+								</a>
+								<a
+									href=""
+									target="_blank"
+									rel="noreferrer noopener">
+									<h4>GitHub Repo</h4>
 								</a>
 								<p
 									className="close-icon"
