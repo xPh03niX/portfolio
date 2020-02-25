@@ -25,8 +25,8 @@ class Navbar extends React.Component {
 		window.addEventListener("scroll", () => {
 			var navBar = document.getElementById("navbar");
 			var domRect = navBar.getBoundingClientRect();
-			var myBackground = document.getElementById("my-background");
-			var domBGRect = myBackground.getBoundingClientRect();
+//			var myBackground = document.getElementById("my-background");
+//			var domBGRect = myBackground.getBoundingClientRect();
 
 			if (domRect.y >= domRect.height) {
 				navBar.classList.add("fade-in-nav");
@@ -60,6 +60,7 @@ class Navbar extends React.Component {
 					<div className="container">
 						<a
 							className="home-style navbar-brand"
+							href="#navbar-brand"
 							onClick={() => {
 								window.scrollTo({
 									top: 0,
@@ -82,7 +83,8 @@ class Navbar extends React.Component {
 							className="collapse navbar-collapse"
 							id="navbarNavAltMarkup">
 							<div className="navbar-nav">
-								<a
+								<a	
+									href="#about"
 									onClick={() => {
 										this.scrolling(this.about);
 									}}
@@ -90,6 +92,7 @@ class Navbar extends React.Component {
 									About
 								</a>
 								<a
+									href="#projects"
 									onClick={() => {
 										this.scrolling(this.projects);
 									}}
@@ -97,6 +100,7 @@ class Navbar extends React.Component {
 									Projects
 								</a>
 								<a
+									href="#contact"
 									onClick={() => {
 										this.scrolling(this.contact);
 									}}

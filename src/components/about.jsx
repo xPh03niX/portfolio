@@ -51,7 +51,7 @@ export default class About extends React.Component {
 						<img
 							className={"img-fluid " + this.props.fadeIn}
 							src={baby}
-							alt="My Picture"
+							alt="Myself"
 							style={{
 								borderRadius: 50 + "%",
 								height: 250 + "px",
