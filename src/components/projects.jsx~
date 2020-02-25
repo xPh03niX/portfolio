@@ -125,7 +125,7 @@ export default class Projects extends React.Component {
 										around the world.
 									</li>
 									<li>
-										Designed with HTML5, CSS3, Bootstrap,											 and ReactJS.
+										Designed with HTML5, CSS3, Bootstrap											 and ReactJS.
 									</li>
 								</ul>
 							</div>
