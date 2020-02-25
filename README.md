@@ -2,7 +2,7 @@
 
   
 
-Personal portfolio page [www.fdaviz.com](https://www.fdaviz.com/) built in React.
+Personal portfolio page [View Demo](https://xph03nix.github.io/reactjs-portfolio/) built in React.
 
   
 
