@@ -9,16 +9,6 @@ html,body {
   height: 0;
 }
 
-h1 {
-    font-weight: 200;
-    margin: 0.4em 0;
-    font-size: 4.5rem;
-}
-
-p {
-    font-size: 2.5rem;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
