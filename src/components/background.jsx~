@@ -19,7 +19,7 @@ export default class Background extends React.Component {
 						Hello, I&apos;m Henri Herrera
 					</h1>
 					<h2>
-						Full Stack Web Developer
+						 React Developer
 					</h2>
 					{/* offset can be changed in node modules wowjs default file */}
 					<button

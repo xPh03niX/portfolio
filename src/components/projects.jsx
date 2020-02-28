@@ -1,7 +1,7 @@
 import React from "react";
 import weather from "../img/weather.jpg";
 import aguaDeLuz from "../img/aguaDeLuz.png";
-import todo from "../img/todolist.png";
+import movies from "../img/movies.jpg";
 import PropTypes from "prop-types";
 
 export default class Projects extends React.Component {
@@ -82,7 +82,7 @@ export default class Projects extends React.Component {
 								}>
 								<div className="overlay">
 									<div className="text">
-										<h2>To Do List</h2>
+										<h2>Movie App</h2>
 									</div>
 									<div>
 										<button
@@ -225,30 +225,30 @@ export default class Projects extends React.Component {
 
 					<div id="todolist" className="modal-card">
 						<div className="visual">
-							<img src={todo} alt=""/>
+							<img src={movies} alt=""/>
 						</div>
 						<div className="modal-info">
-							<h2>To-Do List</h2>
+							<h2>Movie App</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-										A to-do list to keep track of goals.
+										A movie app developed using React with the MovieDB API.
 									</li>
 									<li>
-										Developed with HTML5, CSS3, Bootstrap,
-										Webpack, and ReactJS.
+										Developed with HTML5, CSS3,
+										ReactiveSearch, and ReactJS.
 									</li>
 								</ul>
 							</div>
 							<div className="modal-bottom">
 								<a 
-									href="./todoList/index.html" 
+									href="https://xph03nix.github.io/DbApp/" 
 									target="_blank"
 									rel="noreferrer noopener">
 									<h4>View live demo</h4>
 								</a>
 								<a
-									href=""
+									href="https://github.com/xPh03niX/DbApp"
 									target="_blank"
 									rel="noreferrer noopener">
 									<h4>GitHub Repo</h4>
