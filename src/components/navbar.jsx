@@ -51,7 +51,7 @@ class Navbar extends React.Component {
 				<Background
 					ref={this.navEffect}
 					id="my-background"
-					aboutRef={this.about}
+					aboutRef={this.projects}
 					bounceIn={"wow bounceIn"}
 				/>
 				<nav
@@ -69,7 +69,7 @@ class Navbar extends React.Component {
 							}}>
 							Back to Space
 						</a>
-						<button
+					/*	<button
 							className="navbar-toggler"
 							type="button"
 							data-toggle="collapse"
@@ -81,7 +81,7 @@ class Navbar extends React.Component {
 						</button>
 						<div
 							className="collapse navbar-collapse"
-							id="navbarNavAltMarkup">
+							id="navbarNavAltMarkup">*/
 							<div className="navbar-nav">
 								<a
 									href="#projects"
