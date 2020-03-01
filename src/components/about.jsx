@@ -61,9 +61,12 @@ export default class About extends React.Component {
 							I love to transform ideas into reality using code. I
 							am passionate about using Javascript and animations
 							to create awesome user experiences.
-							<br />
+							<br /><br />
 							The whole point of everything is to constantly improve,
+							innovation, attention to detail and creating the highest impact,
 							personal growth is one of my constant goals.
+							<br />
+							Firm believer in Effective Altruism.
 						</p>
 					</div>
 			</div>
