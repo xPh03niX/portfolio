@@ -83,14 +83,6 @@ class Navbar extends React.Component {
 							className="collapse navbar-collapse"
 							id="navbarNavAltMarkup">
 							<div className="navbar-nav">
-								<a	
-									href="#about"
-									onClick={() => {
-										this.scrolling(this.about);
-									}}
-									className="btn-style nav-item nav-link">
-									About
-								</a>
 								<a
 									href="#projects"
 									onClick={() => {
@@ -98,6 +90,14 @@ class Navbar extends React.Component {
 									}}
 									className="btn-style nav-item nav-link">
 									Projects
+								</a>
+								<a	
+									href="#about"
+									onClick={() => {
+										this.scrolling(this.about);
+									}}
+									className="btn-style nav-item nav-link">
+									About
 								</a>
 								<a
 									href="#contact"
@@ -111,9 +111,15 @@ class Navbar extends React.Component {
 						</div>
 					</div>
 				</nav>
-
+				
+				<Projects
+					ref={ this.about }
+					id="my-projects"
+					fadeInRight= { "wow fadeInRight" }
+					fadeIn= { "wow fadeIn" }
+				/>
 				<About
-					ref={this.about}
+					ref={ this.about }
 					id="about-container"
 					bounceLeft={"wow bounceInLeft"}
 					fadeInLeft={"wow fadeInLeft"}
@@ -121,14 +127,8 @@ class Navbar extends React.Component {
 					fadeIn={"wow fadeIn"}
 					tada={"wow fadeIn"}
 				/>
-				<Projects
-					ref={this.projects}
-					id="my-projects"
-					fadeInRight={"wow fadeInRight"}
-					fadeIn={"wow fadeIn"}
-				/>
 				<Contact
-					ref={this.contact}
+					ref={ this.contact }
 					id="my-contact"
 					fadeInLeft={"wow fadeInLeft"}
 					shake={"wow pulse"}
