@@ -20,28 +20,28 @@ export default class About extends React.Component {
 						className={
 							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
 						}>
-						<img src={layers} alt=""/>
+						<img src={layers} alt="Layers"/>
 						<h4>Responsive</h4>
 					</div>
 					<div
 						className={
 							"col-6 col-sm-6 col-md-3 " + this.props.fadeInLeft
 						}>
-						<img src={pen} alt=""/>
+						<img src={pen} alt="Pen"/>
 						<h4>Design</h4>
 					</div>
 					<div
 						className={
 							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
 						}>
-						<img src={cogwheel} alt=""/>
+						<img src={cogwheel} alt="Cogwheel"/>
 						<h4>Performance</h4>
 					</div>
 					<div
 						className={
 							"col-6 col-sm-6 col-md-3 " + this.props.fadeInRight
 						}>
-						<img src={browser} alt=""/>
+						<img src={browser} alt="Browser Performance"/>
 						<h4>Agile</h4>
 					</div>
 				</div>

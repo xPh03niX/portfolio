@@ -51,7 +51,7 @@ class Navbar extends React.Component {
 				<Background
 					ref={this.navEffect}
 					id="my-background"
-					aboutRef={this.about}
+					aboutRef={this.projects}
 					bounceIn={"wow bounceIn"}
 				/>
 				<nav
