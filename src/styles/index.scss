@@ -155,11 +155,6 @@ p {
     padding-top: 60px;
 }
 
-.progress {
-    height: 1.5rem;
-    font-size: 1rem;
-}
-
 .testbg { 
     background-image: url("../img/weather.jpg");
     height: 400px; 
@@ -228,42 +223,9 @@ p {
     padding-top: 6rem;
 }
 
-
-@keyframes fillBar {
-    0% {width: 0;}
-    100% {width: 80%;}
+.container {
+  margin-top: 3%;
 }
-@keyframes fill60Bar {
-    0% {width: 0;}
-    100% {width: 60%;}
-}
-@keyframes fill90Bar {
-    0% {width: 0;}
-    100% {width: 90%;}
-}
-
-.fill-bar {
-    width: 0;
-}
-
-.filed-80-bar {
-    animation: fillBar 2s;
-}
-.fill-60-bar {
-    width: 0;
-}
-
-.filed-60-bar {
-    animation: fill60Bar 2s;
-}
-.fill-90-bar {
-    width: 0;
-}
-
-.filed-90-bar {
-    animation: fill90Bar 2s;
-}
-
 
 .overlay {
   position: absolute;

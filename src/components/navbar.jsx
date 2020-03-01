@@ -113,7 +113,7 @@ class Navbar extends React.Component {
 				</nav>
 				
 				<Projects
-					ref={ this.about }
+					ref={ this.projects }
 					id="my-projects"
 					fadeInRight= { "wow fadeInRight" }
 					fadeIn= { "wow fadeIn" }

@@ -46,8 +46,7 @@ export default class About extends React.Component {
 					</div>
 				</div>
 
-				<div className="row" style={{ marginTop: 7 + "rem" }}>
-					<div className="col-12 col-lg-6 hidden">
+					<div className="container col-12 col-lg-6 hidden">
 						<img
 							className={"img-fluid " + this.props.fadeIn}
 							src={baby}
@@ -62,13 +61,12 @@ export default class About extends React.Component {
 							I love to transform ideas into reality using code. I
 							am passionate about using Javascript and animations
 							to create awesome user experiences.
-
+							<br />
 							The whole point of everything is to constantly improve,
 							personal growth is one of my constant goals.
 						</p>
 					</div>
-						</div>
-					</div>
+			</div>
 		);
 	}
 }
