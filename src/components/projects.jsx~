@@ -168,33 +168,29 @@ export default class Projects extends React.Component {
 
 					<div id="agualuz" className="modal-card">
 						<div className="visual">
-							<img src={aguaDeLuz} alt=""/>
+							<img src={valentine} alt="valentine animation"/>
 						</div>
 						<div className="modal-info">
-							<h2>Agua De Luz</h2>
+							<h2>Valentine</h2>
 							<div className="modal-description">
 								<ul>
 									<li>
-										Prototype website to promote health
-										natural-made products to increase brand
-										and online presence.
+										Valentine animation made with love
 									</li>
 									<li>
-										Developed with HTML5, CSS3, Bootstrap,
-										Webpack, Parallax Effect,
-										SmoothScrolling(UI), and VanillaJS.
+										Developed with HTML5, CSS3 and VanillaJS.
 									</li>
 								</ul>
 							</div>
 							<div className="modal-bottom">
 								<a
-									href="./AguaDeLuz/index.html"
+									href="https://xph03nix.github.io/love"
 									target="_blank"
 									rel="noreferrer noopener">
 									<h4>View live demo</h4>
 								</a>
 								<a
-									href=""
+									href="https://github.com/xPh03niX/love"
 									target="_blank"
 									rel="noreferrer noopener">
 									<h4>GitHub Repo</h4>
