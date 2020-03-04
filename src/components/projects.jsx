@@ -1,6 +1,6 @@
 import React from "react";
 import weather from "../img/weather.jpg";
-import aguaDeLuz from "../img/aguaDeLuz.png";
+import valentine from "../img/valentine.jpg";
 import movies from "../img/movies.jpg";
 import PropTypes from "prop-types";
 
