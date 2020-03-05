@@ -1,5 +1,5 @@
 # React-Portfolio App
-
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 
 Personal portfolio page [View Demo](https://xph03nix.github.io/portfolio/) built in React.
