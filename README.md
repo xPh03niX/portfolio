@@ -1,4 +1,4 @@
-# React-Portfolio App
+# Portfolio App
  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 
@@ -35,7 +35,5 @@ Personal portfolio page [View Demo](https://xph03nix.github.io/portfolio/) built
 2. 2.Sharing DOM component details such as height, offsetTops, etc, between other components was a bit difficult because [React Refs](https://reactjs.org/docs/refs-and-the-dom.html) had to match parent containers' ids. That took me the long time to figure out.
 
 3. After using Bootstrap for a while I had to re learn some CSS3 tricks like flex-box and how to use @keyframes + animation.
-
-## Conclusion
 
 Thanks for visiting my react-portfolio-website and for taking time to read this!
