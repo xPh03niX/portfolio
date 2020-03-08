@@ -3,7 +3,7 @@ import layers from "../img/layers.png";
 import cogwheel from "../img/cogwheel.png";
 import pen from "../img/pen.png";
 import browser from "../img/browser.png";
-import baby from "../img/baby.jpg";
+import baby from "../img/baby.png";
 import PropTypes from "prop-types";
 
 export default class About extends React.Component {
